@@ -164,6 +164,9 @@ footer a:hover {
         padding: 5px;
         border-bottom: 0px;
     }
+}
+
+
 /*inicio hero*/
 
 .hero {
@@ -235,4 +238,10 @@ footer a:hover {
 
 
 /*fin hero*/
+
+
+/*main*/
+
+main {
+    margin-bottom: 70px;
 }
