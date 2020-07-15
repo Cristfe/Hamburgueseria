@@ -441,7 +441,7 @@ font-family: 'Montserrat', sans-serif;
             
             @media(min-width: 48.000em) {
                 main #ourMenu .flex article {
-                    width: 50%;
+                    width: 30%;
                     padding: 1.825em 0;
                     border-bottom: 0px;
                     margin-bottom: 1em;
@@ -465,6 +465,19 @@ font-family: 'Montserrat', sans-serif;
             main #ourblogs {
                 flex-wrap: wrap;
                 padding: 0.825 0.825em;
+            }
+            
+            main #ourblogs .container .flex .botonblog {
+                position: relative;
+                bottom: -70px;
+                display: inline-block;
+                background-color: var(--color-principal);
+                opacity: 80%;
+                color: white;
+                padding: 1.15em;
+                text-decoration: none;
+                margin: 1em 0;
+                border: 1px solid var(--color-principal);
             }
             
             main #ourblogs .container img {
